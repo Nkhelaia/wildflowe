@@ -1,0 +1,162 @@
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header span{
+    font-size: 20px;
+    color: #c6c4c4;
+    font-family: 'Tangerine', cursive;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+footer i{
+    
+}
+.arrow{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background: #c6c4c4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+}
+.volume{
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 70px;
+    height: 70px;
+    background: #c6c4c4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+}
+.check{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background: #c6c4c4;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+}
+.three{
+    display: flex;
+}
+.three i{
+    padding: 20px;
+}
+.droplet{
+   margin-left: 50px;
+   color: #4f4e4e;;
+   font-size: 30px;
+}
+.question{
+  margin-right: 50px;
+  color: #a8a7a7;
+  font-size: 30px;
+}
+footer .droplet:hover{
+    color: #2d2c2c;
+    
+}
+footer .question:hover{
+    color: #4f4e4e;
+}
+.openBtn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .openBtn:hover {
+    background: #bbb;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .overlay .closebtn:hover {
+    color: #ccc;
+  }
+  
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  .overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: #bbb;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <span>ENTER NAMES & CLICK <i class="fa-regular fa-heart"></i></span>
+    </header>
+    <div class="name">
+        <input type="name" placeholder="you">
+        <br>
+        <a href="third.html"><i class="fa-solid fa-heart" style="color: red;" id="hart"></i></a>
+        <br>
+        <input type="name" placeholder="hwo?">
+    </div>
+    <footer>
+        <div class="droplet">
+            <i class="fa-solid fa-droplet"></i>
+        </div>
+        <div class="question">
+            <i class="fa-regular fa-circle-question" onclick="openSearch()"></i>
+        </div>
+    </footer>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          
+        </div>
+    </div>
+<script src="second.js"></script>    
+</body>
+</html>
